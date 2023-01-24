@@ -67,6 +67,7 @@ const FileUploader: FC<uploaderProps> = ({
               multiple={multiples}
               onChange={(e) => {
                 // If the Length of the newFiles (which is a fileList array) 0, then the boolean value will be false
+
                 if (e.target.files?.length) {
                   let updatedFiles = Object.values(e.target.files);
                   updateFilesCb([...stateData, ...updatedFiles]);
