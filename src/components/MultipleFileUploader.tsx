@@ -1,8 +1,8 @@
 import React, { FC } from 'react';
 
-const MultipleComplexUploader: FC = () => {
+const MultipleFileUploader: FC = () => {
   return <div>MultipleSimpleUploader</div>;
 };
 
-export default MultipleComplexUploader;
+export default MultipleFileUploader;
 
