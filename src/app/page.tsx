@@ -1,3 +1,4 @@
+import SingleFileUploader from '@/components/SingleFileUploader';
 import { NextPage } from 'next';
 
 const Home: NextPage = () => {
@@ -7,7 +8,9 @@ const Home: NextPage = () => {
         <h5 className='text-center text-lg text-slate-900 font-bold pb-3 border-0 border-b-4 px-4 border-teal-400 '>
           Single File Uploader
         </h5>
-        <div className='w-full flex flex-col justify-start items-start '></div>
+        <div className='w-full py-10 flex flex-col justify-start items-start '>
+          <SingleFileUploader />
+        </div>
       </div>
     </section>
   );
